@@ -2,7 +2,7 @@
 
 
 // Import required l ibraries
-#include <M5StickC.h>
+#include <M5StickCPlus.h>
 #include <WiFi.h>
 #include <ESPAsyncWebServer.h>
 #include <SPIFFS.h>
@@ -26,7 +26,7 @@ byte gbuf[16];
 AsyncWebServer server(80);
 
 // wifiアクセスポイントの名前・パスワードを設定
-const char ssid[] = "M5_Phys001"; // SSID
+const char ssid[] = "M5_Phys002"; // SSID
 const char pass[] = "11241124";   // password
 
 const IPAddress ip(192, 168, 20, 2);      // IPアドレス
